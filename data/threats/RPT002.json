@@ -1,0 +1,65 @@
+{
+  "id": "RPT002",
+  "vendorName": "Global Logistics Inc",
+  "threatType": "credential-theft",
+  "severity": 7,
+  "aiRiskScore": 0.72,
+  "status": "investigating",
+  "detectionTime": "2024-01-15T13:15:00Z",
+  "description": "Multiple failed login attempts followed by successful access from unknown IP addresses",
+  "affectedSystems": ["user-portal", "admin-console"],
+  "remediationSteps": [
+    "Reset all user passwords",
+    "Enable multi-factor authentication",
+    "Review access logs for unauthorized activity",
+    "Implement account lockout policies",
+    "Deploy behavioral analytics"
+  ],
+  "similarThreats": ["RPT001"],
+  "timeline": [
+    {
+      "timestamp": "2024-01-15T13:15:00Z",
+      "event": "threat-detected",
+      "description": "Brute force attack detected",
+      "actor": "AI-Monitor"
+    },
+    {
+      "timestamp": "2024-01-15T13:20:00Z",
+      "event": "accounts-locked",
+      "description": "Affected user accounts temporarily locked",
+      "actor": "Security-Team"
+    },
+    {
+      "timestamp": "2024-01-15T13:25:00Z",
+      "event": "investigation-started",
+      "description": "Forensic analysis initiated",
+      "actor": "Security-Team"
+    }
+  ],
+  "technicalDetails": {
+    "attackVector": "brute-force",
+    "malwareFamily": "none",
+    "persistenceMechanism": "stolen-credentials",
+    "networkIndicators": [
+      "203.0.113.0/24",
+      "198.51.100.0/24"
+    ],
+    "fileIndicators": []
+  },
+  "impactAssessment": {
+    "dataCompromised": "medium",
+    "systemAvailability": "normal",
+    "businessContinuity": "minimal",
+    "reputationRisk": "medium"
+  },
+  "aiAnalysis": {
+    "confidence": 0.72,
+    "threatIntelligence": "known-attacker-ip-ranges",
+    "behavioralAnalysis": "unusual-login-patterns",
+    "recommendations": [
+      "Implement adaptive authentication",
+      "Deploy user behavior analytics",
+      "Enhance credential monitoring"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "RPT001",
+  "vendorName": "TechCorp Solutions",
+  "threatType": "supply-chain-compromise",
+  "severity": 9,
+  "aiRiskScore": 0.87,
+  "status": "active",
+  "detectionTime": "2024-01-15T14:30:00Z",
+  "description": "Suspicious network activity detected from compromised third-party software update server",
+  "affectedSystems": ["web-servers", "database-servers", "load-balancers"],
+  "remediationSteps": [
+    "Isolate affected systems",
+    "Update software from verified sources",
+    "Implement additional network segmentation",
+    "Review third-party vendor security practices",
+    "Implement software supply chain verification"
+  ],
+  "similarThreats": ["RPT002", "RPT003"],
+  "timeline": [
+    {
+      "timestamp": "2024-01-15T14:30:00Z",
+      "event": "threat-detected",
+      "description": "AI system flagged unusual network patterns",
+      "actor": "AI-Monitor"
+    },
+    {
+      "timestamp": "2024-01-15T14:35:00Z",
+      "event": "investigation-started",
+      "description": "Security team initiated incident response",
+      "actor": "Security-Team"
+    },
+    {
+      "timestamp": "2024-01-15T14:40:00Z",
+      "event": "vendor-notified",
+      "description": "TechCorp Solutions notified of potential compromise",
+      "actor": "Security-Team"
+    },
+    {
+      "timestamp": "2024-01-15T14:45:00Z",
+      "event": "systems-isolated",
+      "description": "Affected systems isolated from network",
+      "actor": "Network-Team"
+    }
+  ],
+  "technicalDetails": {
+    "attackVector": "compromised-software-update",
+    "malwareFamily": "unknown",
+    "persistenceMechanism": "registry-modification",
+    "networkIndicators": [
+      "192.168.1.100:443",
+      "10.0.0.50:8080"
+    ],
+    "fileIndicators": [
+      "update_service.exe",
+      "config.dll"
+    ]
+  },
+  "impactAssessment": {
+    "dataCompromised": "potentially-high",
+    "systemAvailability": "degraded",
+    "businessContinuity": "affected",
+    "reputationRisk": "high"
+  },
+  "aiAnalysis": {
+    "confidence": 0.87,
+    "threatIntelligence": "matches-known-patterns",
+    "behavioralAnalysis": "anomalous-network-activity",
+    "recommendations": [
+      "Implement zero-trust architecture",
+      "Enhance software supply chain security",
+      "Deploy advanced threat detection"
+    ]
+  }
+}

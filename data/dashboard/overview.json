@@ -1,0 +1,53 @@
+{
+  "totalThreats": 47,
+  "activeThreats": 23,
+  "criticalVendors": 8,
+  "riskTrend": "increasing",
+  "topThreatTypes": [
+    {
+      "type": "supply-chain-compromise",
+      "count": 12,
+      "percentage": 25.5
+    },
+    {
+      "type": "credential-theft",
+      "count": 9,
+      "percentage": 19.1
+    },
+    {
+      "type": "malware-injection",
+      "count": 7,
+      "percentage": 14.9
+    },
+    {
+      "type": "data-exfiltration",
+      "count": 6,
+      "percentage": 12.8
+    },
+    {
+      "type": "phishing-attack",
+      "count": 5,
+      "percentage": 10.6
+    }
+  ],
+  "recentAlerts": [
+    {
+      "id": "RPT001",
+      "vendor": "TechCorp Solutions",
+      "severity": 9,
+      "timestamp": "2024-01-15T14:30:00Z"
+    },
+    {
+      "id": "RPT002",
+      "vendor": "Global Logistics Inc",
+      "severity": 7,
+      "timestamp": "2024-01-15T13:15:00Z"
+    },
+    {
+      "id": "RPT003",
+      "vendor": "SecureNet Systems",
+      "severity": 6,
+      "timestamp": "2024-01-15T12:45:00Z"
+    }
+  ]
+}

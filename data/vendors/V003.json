@@ -1,0 +1,58 @@
+{
+  "id": "V003",
+  "name": "SecureNet Systems",
+  "riskLevel": "medium",
+  "riskScore": 0.65,
+  "threatCount": 1,
+  "lastAssessment": "2024-01-15T08:00:00Z",
+  "complianceStatus": ["SOC2", "ISO27001"],
+  "criticalAssets": ["web-application", "database", "security-tools"],
+  "companyInfo": {
+    "industry": "Cybersecurity",
+    "size": "Mid-market",
+    "employees": 450,
+    "revenue": "$50M+",
+    "headquarters": "Austin, TX"
+  },
+  "securityPosture": {
+    "overallScore": 0.65,
+    "technicalControls": 0.70,
+    "administrativeControls": 0.60,
+    "physicalControls": 0.65,
+    "lastPenetrationTest": "2024-01-05T00:00:00Z"
+  },
+  "threatHistory": [
+    {
+      "threatId": "RPT003",
+      "date": "2024-01-15T12:45:00Z",
+      "severity": 6,
+      "status": "active"
+    }
+  ],
+  "riskFactors": [
+    "Web application vulnerabilities",
+    "Development practices",
+    "Code review processes",
+    "Security testing frequency"
+  ],
+  "remediationProgress": {
+    "completed": 75,
+    "inProgress": 20,
+    "pending": 5,
+    "estimatedCompletion": "2024-01-25T00:00:00Z"
+  },
+  "aiRiskAnalysis": {
+    "confidence": 0.65,
+    "trend": "decreasing",
+    "keyRiskIndicators": [
+      "Application security controls",
+      "Secure development lifecycle",
+      "Vulnerability management"
+    ],
+    "recommendations": [
+      "Implement secure coding practices",
+      "Enhance code review processes",
+      "Increase security testing frequency"
+    ]
+  }
+}

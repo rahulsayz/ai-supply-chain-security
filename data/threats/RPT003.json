@@ -1,0 +1,68 @@
+{
+  "id": "RPT003",
+  "vendorName": "SecureNet Systems",
+  "threatType": "malware-injection",
+  "severity": 6,
+  "aiRiskScore": 0.65,
+  "status": "active",
+  "detectionTime": "2024-01-15T12:45:00Z",
+  "description": "Malicious code injection detected in web application through SQL injection vulnerability",
+  "affectedSystems": ["web-application", "database"],
+  "remediationSteps": [
+    "Patch SQL injection vulnerability",
+    "Scan for additional malware",
+    "Implement input validation",
+    "Deploy web application firewall",
+    "Conduct security code review"
+  ],
+  "similarThreats": ["RPT001"],
+  "timeline": [
+    {
+      "timestamp": "2024-01-15T12:45:00Z",
+      "event": "threat-detected",
+      "description": "Malware signature detected",
+      "actor": "AI-Monitor"
+    },
+    {
+      "timestamp": "2024-01-15T12:50:00Z",
+      "event": "vulnerability-identified",
+      "description": "SQL injection vulnerability confirmed",
+      "actor": "Security-Team"
+    },
+    {
+      "timestamp": "2024-01-15T12:55:00Z",
+      "event": "patch-development",
+      "description": "Security patch development initiated",
+      "actor": "Development-Team"
+    }
+  ],
+  "technicalDetails": {
+    "attackVector": "sql-injection",
+    "malwareFamily": "web-shell",
+    "persistenceMechanism": "file-upload",
+    "networkIndicators": [
+      "web-application:80",
+      "database:3306"
+    ],
+    "fileIndicators": [
+      "shell.php",
+      "config.php"
+    ]
+  },
+  "impactAssessment": {
+    "dataCompromised": "low",
+    "systemAvailability": "normal",
+    "businessContinuity": "minimal",
+    "reputationRisk": "low"
+  },
+  "aiAnalysis": {
+    "confidence": 0.65,
+    "threatIntelligence": "known-web-shell-patterns",
+    "behavioralAnalysis": "anomalous-database-queries",
+    "recommendations": [
+      "Implement secure coding practices",
+      "Deploy runtime application self-protection",
+      "Enhance vulnerability scanning"
+    ]
+  }
+}

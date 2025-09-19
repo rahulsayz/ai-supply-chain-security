@@ -1,0 +1,20 @@
+{
+  "trends": [
+    {
+      "period": "Week 1",
+      "start_date": "2025-08-18",
+      "end_date": "2025-08-18",
+      "total_cost": 0.0,
+      "avg_daily_cost": 0.0,
+      "cost_change_percent": -100.0,
+      "trend_direction": "decreasing",
+      "peak_cost": 0.0,
+      "peak_date": "2025-08-18",
+      "low_cost": 0.0,
+      "low_date": "2025-08-18",
+      "cost_variance": 1.1113384847865544e-05,
+      "forecast_next_period": 0.0
+    }
+  ],
+  "anomalies": []
+}

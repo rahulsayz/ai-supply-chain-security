@@ -1,0 +1,139 @@
+[
+  {
+    "id": "RPT001",
+    "vendorName": "TechCorp Solutions",
+    "threatType": "supply-chain-compromise",
+    "severity": 9,
+    "aiRiskScore": 0.87,
+    "status": "active",
+    "detectionTime": "2024-01-15T14:30:00Z",
+    "description": "Suspicious network activity detected from compromised third-party software update server",
+    "affectedSystems": ["web-servers", "database-servers", "load-balancers"],
+    "remediationSteps": [
+      "Isolate affected systems",
+      "Update software from verified sources",
+      "Implement additional network segmentation"
+    ],
+    "similarThreats": ["RPT002", "RPT003"],
+    "timeline": [
+      {
+        "timestamp": "2024-01-15T14:30:00Z",
+        "event": "threat-detected",
+        "description": "AI system flagged unusual network patterns",
+        "actor": "AI-Monitor"
+      },
+      {
+        "timestamp": "2024-01-15T14:35:00Z",
+        "event": "investigation-started",
+        "description": "Security team initiated incident response",
+        "actor": "Security-Team"
+      }
+    ]
+  },
+  {
+    "id": "RPT002",
+    "vendorName": "Global Logistics Inc",
+    "threatType": "credential-theft",
+    "severity": 7,
+    "aiRiskScore": 0.72,
+    "status": "investigating",
+    "detectionTime": "2024-01-15T13:15:00Z",
+    "description": "Multiple failed login attempts followed by successful access from unknown IP addresses",
+    "affectedSystems": ["user-portal", "admin-console"],
+    "remediationSteps": [
+      "Reset all user passwords",
+      "Enable multi-factor authentication",
+      "Review access logs for unauthorized activity"
+    ],
+    "similarThreats": ["RPT001"],
+    "timeline": [
+      {
+        "timestamp": "2024-01-15T13:15:00Z",
+        "event": "threat-detected",
+        "description": "Brute force attack detected",
+        "actor": "AI-Monitor"
+      }
+    ]
+  },
+  {
+    "id": "RPT003",
+    "vendorName": "SecureNet Systems",
+    "threatType": "malware-injection",
+    "severity": 6,
+    "aiRiskScore": 0.65,
+    "status": "active",
+    "detectionTime": "2024-01-15T12:45:00Z",
+    "description": "Malicious code injection detected in web application through SQL injection vulnerability",
+    "affectedSystems": ["web-application", "database"],
+    "remediationSteps": [
+      "Patch SQL injection vulnerability",
+      "Scan for additional malware",
+      "Implement input validation"
+    ],
+    "similarThreats": ["RPT001"],
+    "timeline": [
+      {
+        "timestamp": "2024-01-15T12:45:00Z",
+        "event": "threat-detected",
+        "description": "Malware signature detected",
+        "actor": "AI-Monitor"
+      }
+    ]
+  },
+  {
+    "id": "RPT004",
+    "vendorName": "DataFlow Corp",
+    "threatType": "data-exfiltration",
+    "severity": 8,
+    "aiRiskScore": 0.79,
+    "status": "investigating",
+    "detectionTime": "2024-01-15T11:20:00Z",
+    "description": "Large volume of sensitive data being transferred to external servers",
+    "affectedSystems": ["file-servers", "backup-systems"],
+    "remediationSteps": [
+      "Block external data transfers",
+      "Investigate data access patterns",
+      "Implement data loss prevention"
+    ],
+    "similarThreats": ["RPT001", "RPT002"],
+    "timeline": [
+      {
+        "timestamp": "2024-01-15T11:20:00Z",
+        "event": "threat-detected",
+        "description": "Unusual data transfer volume detected",
+        "actor": "AI-Monitor"
+      }
+    ]
+  },
+  {
+    "id": "RPT005",
+    "vendorName": "CloudTech Solutions",
+    "threatType": "phishing-attack",
+    "severity": 5,
+    "aiRiskScore": 0.58,
+    "status": "resolved",
+    "detectionTime": "2024-01-15T10:00:00Z",
+    "description": "Phishing campaign targeting employees with fake security alerts",
+    "affectedSystems": ["email-systems", "user-workstations"],
+    "remediationSteps": [
+      "Block malicious email domains",
+      "Provide security awareness training",
+      "Implement email filtering"
+    ],
+    "similarThreats": ["RPT002"],
+    "timeline": [
+      {
+        "timestamp": "2024-01-15T10:00:00Z",
+        "event": "threat-detected",
+        "description": "Phishing email campaign identified",
+        "actor": "AI-Monitor"
+      },
+      {
+        "timestamp": "2024-01-15T10:30:00Z",
+        "event": "resolved",
+        "description": "Threat contained and resolved",
+        "actor": "Security-Team"
+      }
+    ]
+  }
+]

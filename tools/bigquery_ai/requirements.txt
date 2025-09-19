@@ -1,0 +1,46 @@
+# Core Google Cloud Services
+google-cloud-bigquery==3.13.0
+google-cloud-aiplatform==1.38.1
+google-cloud-billing==1.11.0
+google-cloud-storage==2.10.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# AI/ML and Vector Processing
+bigframes==1.0.0
+google-cloud-aiplatform==1.38.1
+vertexai==0.0.1
+
+# Data Processing and Analysis
+pandas==2.1.3
+numpy==1.25.2
+scikit-learn==1.3.2
+
+# Utilities and Development
+python-dotenv==1.0.0
+click==8.1.7
+rich==13.7.0
+tabulate==0.9.0
+pydantic==2.5.0
+schedule==1.2.0
+watchdog==3.0.0
+
+# Additional AI/ML Libraries
+transformers==4.35.2
+torch==2.1.1
+tensorflow==2.14.0
+
+# Vector and Embedding Libraries
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# Image and Document Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# Monitoring and Logging
+prometheus-client==0.19.0
+structlog==23.2.0

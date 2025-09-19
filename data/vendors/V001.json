@@ -1,0 +1,70 @@
+{
+  "id": "V001",
+  "name": "TechCorp Solutions",
+  "riskLevel": "critical",
+  "riskScore": 0.87,
+  "threatCount": 3,
+  "lastAssessment": "2024-01-15T10:00:00Z",
+  "complianceStatus": ["SOC2", "ISO27001", "PCI-DSS"],
+  "criticalAssets": ["web-servers", "database-servers", "load-balancers"],
+  "companyInfo": {
+    "industry": "Technology Services",
+    "size": "Enterprise",
+    "employees": 2500,
+    "revenue": "$500M+",
+    "headquarters": "San Francisco, CA"
+  },
+  "securityPosture": {
+    "overallScore": 0.87,
+    "technicalControls": 0.82,
+    "administrativeControls": 0.79,
+    "physicalControls": 0.91,
+    "lastPenetrationTest": "2024-01-10T00:00:00Z"
+  },
+  "threatHistory": [
+    {
+      "threatId": "RPT001",
+      "date": "2024-01-15T14:30:00Z",
+      "severity": 9,
+      "status": "active"
+    },
+    {
+      "threatId": "RPT002",
+      "date": "2024-01-14T10:15:00Z",
+      "severity": 7,
+      "status": "resolved"
+    },
+    {
+      "threatId": "RPT003",
+      "date": "2024-01-13T16:45:00Z",
+      "severity": 6,
+      "status": "resolved"
+    }
+  ],
+  "riskFactors": [
+    "High-value intellectual property",
+    "Critical infrastructure dependencies",
+    "Recent security incidents",
+    "Complex supply chain relationships"
+  ],
+  "remediationProgress": {
+    "completed": 45,
+    "inProgress": 35,
+    "pending": 20,
+    "estimatedCompletion": "2024-03-15T00:00:00Z"
+  },
+  "aiRiskAnalysis": {
+    "confidence": 0.87,
+    "trend": "increasing",
+    "keyRiskIndicators": [
+      "Network segmentation gaps",
+      "Third-party access controls",
+      "Incident response capabilities"
+    ],
+    "recommendations": [
+      "Implement zero-trust architecture",
+      "Enhance vendor risk management",
+      "Improve incident response procedures"
+    ]
+  }
+}

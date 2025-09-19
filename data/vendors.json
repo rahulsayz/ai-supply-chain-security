@@ -1,0 +1,82 @@
+[
+  {
+    "id": "V001",
+    "name": "TechCorp Solutions",
+    "riskLevel": "critical",
+    "riskScore": 0.87,
+    "threatCount": 3,
+    "lastAssessment": "2024-01-15T10:00:00Z",
+    "complianceStatus": ["SOC2", "ISO27001", "PCI-DSS"],
+    "criticalAssets": ["web-servers", "database-servers", "load-balancers"]
+  },
+  {
+    "id": "V002",
+    "name": "Global Logistics Inc",
+    "riskLevel": "high",
+    "riskScore": 0.72,
+    "threatCount": 2,
+    "lastAssessment": "2024-01-15T09:00:00Z",
+    "complianceStatus": ["ISO27001", "GDPR"],
+    "criticalAssets": ["user-portal", "admin-console", "logistics-systems"]
+  },
+  {
+    "id": "V003",
+    "name": "SecureNet Systems",
+    "riskLevel": "medium",
+    "riskScore": 0.65,
+    "threatCount": 1,
+    "lastAssessment": "2024-01-15T08:00:00Z",
+    "complianceStatus": ["SOC2", "ISO27001"],
+    "criticalAssets": ["web-application", "database", "security-tools"]
+  },
+  {
+    "id": "V004",
+    "name": "DataFlow Corp",
+    "riskLevel": "high",
+    "riskScore": 0.79,
+    "threatCount": 2,
+    "lastAssessment": "2024-01-15T07:00:00Z",
+    "complianceStatus": ["ISO27001", "HIPAA"],
+    "criticalAssets": ["file-servers", "backup-systems", "data-warehouse"]
+  },
+  {
+    "id": "V005",
+    "name": "CloudTech Solutions",
+    "riskLevel": "low",
+    "riskScore": 0.58,
+    "threatCount": 1,
+    "lastAssessment": "2024-01-15T06:00:00Z",
+    "complianceStatus": ["SOC2", "ISO27001"],
+    "criticalAssets": ["email-systems", "cloud-platform", "user-workstations"]
+  },
+  {
+    "id": "V006",
+    "name": "Network Dynamics",
+    "riskLevel": "medium",
+    "riskScore": 0.62,
+    "threatCount": 0,
+    "lastAssessment": "2024-01-14T15:00:00Z",
+    "complianceStatus": ["ISO27001"],
+    "criticalAssets": ["network-infrastructure", "monitoring-systems"]
+  },
+  {
+    "id": "V007",
+    "name": "SecureCloud Inc",
+    "riskLevel": "low",
+    "riskScore": 0.45,
+    "threatCount": 0,
+    "lastAssessment": "2024-01-14T14:00:00Z",
+    "complianceStatus": ["SOC2", "ISO27001", "FedRAMP"],
+    "criticalAssets": ["cloud-infrastructure", "security-services"]
+  },
+  {
+    "id": "V008",
+    "name": "CyberDefense Pro",
+    "riskLevel": "critical",
+    "riskScore": 0.91,
+    "threatCount": 4,
+    "lastAssessment": "2024-01-14T13:00:00Z",
+    "complianceStatus": ["ISO27001"],
+    "criticalAssets": ["security-operations-center", "threat-intelligence", "incident-response"]
+  }
+]

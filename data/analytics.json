@@ -1,0 +1,32 @@
+{
+  "timeSeriesData": [
+    { "date": "2024-01-09", "threats": 12, "riskScore": 65 },
+    { "date": "2024-01-10", "threats": 18, "riskScore": 72 },
+    { "date": "2024-01-11", "threats": 15, "riskScore": 68 },
+    { "date": "2024-01-12", "threats": 22, "riskScore": 75 },
+    { "date": "2024-01-13", "threats": 19, "riskScore": 71 },
+    { "date": "2024-01-14", "threats": 25, "riskScore": 78 },
+    { "date": "2024-01-15", "threats": 21, "riskScore": 73 }
+  ],
+  "threatTypes": [
+    { "name": "Network Infiltration", "value": 35, "color": "#ef4444" },
+    { "name": "Data Breach", "value": 25, "color": "#f97316" },
+    { "name": "Malware", "value": 20, "color": "#eab308" },
+    { "name": "Unauthorized Access", "value": 15, "color": "#8b5cf6" },
+    { "name": "Other", "value": 5, "color": "#6b7280" }
+  ],
+  "attackVectors": [
+    { "vector": "Email Phishing", "count": 45, "trend": "+12%" },
+    { "vector": "Web Application", "count": 32, "trend": "+8%" },
+    { "vector": "Supply Chain", "count": 28, "trend": "+25%" },
+    { "vector": "Remote Access", "count": 18, "trend": "-3%" },
+    { "vector": "Insider Threat", "count": 12, "trend": "+15%" }
+  ],
+  "predictions": [
+    { "month": "Feb", "predicted": 42, "actual": 38 },
+    { "month": "Mar", "predicted": 38, "actual": 45 },
+    { "month": "Apr", "predicted": 52, "actual": null },
+    { "month": "May", "predicted": 48, "actual": null },
+    { "month": "Jun", "predicted": 55, "actual": null }
+  ]
+}

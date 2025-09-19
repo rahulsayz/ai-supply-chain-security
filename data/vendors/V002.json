@@ -1,0 +1,64 @@
+{
+  "id": "V002",
+  "name": "Global Logistics Inc",
+  "riskLevel": "high",
+  "riskScore": 0.72,
+  "threatCount": 2,
+  "lastAssessment": "2024-01-15T09:00:00Z",
+  "complianceStatus": ["ISO27001", "GDPR"],
+  "criticalAssets": ["user-portal", "admin-console", "logistics-systems"],
+  "companyInfo": {
+    "industry": "Logistics & Transportation",
+    "size": "Enterprise",
+    "employees": 1800,
+    "revenue": "$300M+",
+    "headquarters": "Chicago, IL"
+  },
+  "securityPosture": {
+    "overallScore": 0.72,
+    "technicalControls": 0.68,
+    "administrativeControls": 0.75,
+    "physicalControls": 0.73,
+    "lastPenetrationTest": "2024-01-08T00:00:00Z"
+  },
+  "threatHistory": [
+    {
+      "threatId": "RPT002",
+      "date": "2024-01-15T13:15:00Z",
+      "severity": 7,
+      "status": "investigating"
+    },
+    {
+      "threatId": "RPT004",
+      "date": "2024-01-12T14:20:00Z",
+      "severity": 6,
+      "status": "resolved"
+    }
+  ],
+  "riskFactors": [
+    "Customer data exposure",
+    "Supply chain dependencies",
+    "Geographic distribution",
+    "Third-party integrations"
+  ],
+  "remediationProgress": {
+    "completed": 60,
+    "inProgress": 25,
+    "pending": 15,
+    "estimatedCompletion": "2024-02-28T00:00:00Z"
+  },
+  "aiRiskAnalysis": {
+    "confidence": 0.72,
+    "trend": "stable",
+    "keyRiskIndicators": [
+      "Authentication controls",
+      "Data protection measures",
+      "Vendor risk management"
+    ],
+    "recommendations": [
+      "Implement multi-factor authentication",
+      "Enhance data encryption",
+      "Improve vendor security assessments"
+    ]
+  }
+}

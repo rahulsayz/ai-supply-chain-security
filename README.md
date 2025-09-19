@@ -230,23 +230,6 @@ gcloud run deploy supply-chain-api \
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Awards & Recognition
-
-- **🥇 Google BigQuery AI Hackathon** - Finalist project
-- **🚀 Innovation Award** - AI-powered predictive cybersecurity
-- **💡 Technical Excellence** - Advanced multimodal AI implementation
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Documentation**: [Complete Documentation](docs/)
-- **Email**: support@your-domain.com
-
-## 🙏 Acknowledgments
-
-- Google Cloud BigQuery AI team for advanced AI capabilities
-- Open source community for excellent tools and libraries
-- Cybersecurity researchers for threat intelligence insights
 
 ---
 

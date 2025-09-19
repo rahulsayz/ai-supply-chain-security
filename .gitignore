@@ -135,6 +135,9 @@ Thumbs.db
 
 # Google Cloud credentials
 service-account.json
+service-account.json.backup
+tools/bigquery_ai/service-account.json
+tools/bigquery_ai/service-account.json.backup
 *.json.key
 
 # Build outputs
